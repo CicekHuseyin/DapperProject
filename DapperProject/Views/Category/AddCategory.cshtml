@@ -1,0 +1,17 @@
+﻿@model ResultCategoryViewModel
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<form method="post">
+    <div class="container">
+        <br /><br />
+        <label>Kategori Adı</label>
+        <input type="text" class="form-control" asp-for="CategoryName" />
+        <br />
+        <button class="btn btn-info">Kaydet</button>
+    </div>
+</form>
